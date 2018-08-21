@@ -22,9 +22,9 @@ The following example will install OpenEmbedded-Core and BitBake under your home
 
 ```
 $ cd ~
-$ git clone git://git.openembedded.org/openembedded-core oe-core -b rocko
+$ git clone http://cgit.openembedded.org/openembedded-core oe-core -b rocko
 $ cd oe-core
-$ git clone git://git.openembedded.org/bitbake -b 1.36
+$ git clone http://cgit.openembedded.org/bitbake -b 1.36
 $ export OE_CORE_PATH=$(pwd)
 ```
 
